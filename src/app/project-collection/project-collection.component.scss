@@ -1,0 +1,41 @@
+$filtersmargin: 20px;
+
+@mixin column-count($count) {
+    -moz-column-count:    $count;
+    -webkit-column-count: $count;
+    column-count:         $count;
+  }
+
+.filters{
+    line-height: .5em;
+}
+
+fieldset{
+    margin: $filtersmargin;
+    display: inline-block;
+    border-radius: 5px;
+    border: grey 1px solid;
+    border-radius: 7px;
+}
+.projects {
+    /* Prevent vertical gaps */
+    // line-height: 0;
+     
+    -webkit-column-gap:   0px;
+    -moz-column-gap:      0px;
+    column-gap:           0px;  
+    
+    @include column-count(1);
+
+    @media (min-width: 800px) {
+        @include column-count(2);
+    }
+
+    @media (min-width: 1400px) {
+        @include column-count(3);
+    }
+    @media (min-width: 1900px) {
+        @include column-count(4);
+    }
+}
+

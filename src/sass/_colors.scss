@@ -1,0 +1,27 @@
+$blue: #0000FF;
+$aqua: #7FDBFF;
+$lime: #01FF70;
+$yellow: #FFDC00;
+$red: #FF4136;
+$pink: rgb(255,166,233);
+$white: #FFFFFF;
+$silver: #DDDDDD;
+$gray: #AAAAAA;
+$black: #111111;
+
+
+
+.blue { color: $blue; }
+.aqua { color: $aqua; }
+.lime { color: $lime; }
+.yellow { color: $yellow; }
+.red { color: $red; }
+.pink { color: $pink; }
+.white { color: $white; }
+.silver { color: $silver; }
+.gray { color: $gray; }
+.black { color: $black; }
+
+
+.bg-black{ background-color: $black; }
+.bg-pink{ background-color: $pink; }

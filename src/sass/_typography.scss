@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Ugo-Solid';
+    src: url('./assets/fonts/UGO/UGO-COLOR.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ugo-Shadow';
+    src: url('./assets/fonts/UGO/UGO-DCOLOR.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ugo-Dot';
+    src: url('./assets/fonts/UGO/UGO-DPOIS.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ugo-Rain';
+    src: url('./assets/fonts/UGO/UGO-DRAIN.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ugo-3D';
+    src: url('./assets/fonts/UGO/UGO-ENGREVED.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ugo-Outline';
+    src: url('./assets/fonts/UGO/UGO-LINE.otf') format('opentype');
+}
+
+.title-solid{
+    font-family: 'Ugo-Solid';
+}
+
+.title-3d{
+    font-family: 'Ugo-3D';
+}
+
+.title-dot{
+    font-family: 'Ugo-Dot';
+}
+
+/* Perfect 4th Scale */
+html {font-size: 1.125em;}
+
+body {
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2 {font-size: 2.369em;}
+
+h3 {font-size: 1.777em;}
+
+h4 {font-size: 1.333em;}
+
+small, .font_small {
+    font-size: 0.75em;
+    font-family: 'Open Sans', serif;
+}
+
+// a{
+//     font-family: 'Open Sans', serif;
+// }

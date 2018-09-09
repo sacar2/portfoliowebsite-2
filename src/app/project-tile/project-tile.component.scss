@@ -1,0 +1,19 @@
+.project-tile{
+    background: rgba(6, 23, 49, 0.9);
+    color: white;
+    margin: 40px 15px 100px 15px;
+    padding: 30px 35px 60px 100px;
+    position: relative;
+    min-width: 150px;
+
+    img{
+        position: absolute;
+        width: 70px;
+        height: 120%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    }
+}

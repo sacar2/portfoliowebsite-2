@@ -1,0 +1,46 @@
+
+.selin, .selin >* {
+    transition: all 0.3s ease 0s;
+    left:50%;
+}
+    
+.selin {
+    order: 1;
+
+    >* {        
+        // font-family: 'Roboto', sans-serif;
+        width: 100vw;
+        line-height: 1.2;
+        position: absolute;
+        animation: bounce 1.5s ease infinite;
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 1vh;
+        /* Landscape */
+        @media screen and (orientation:landscape){
+            font-size: 2.287em;
+        }
+        /* Portrait */
+        @media screen and (min-width: 450px) and (orientation:portrait){
+            font-size: 3.25em;
+        }
+        @media screen and (min-width: 720px)  {
+            font-size: 3.998em;
+        }
+    }
+    .title-layer-two {
+        animation-delay:-0.67s;
+    }
+    .title-layer-three{
+        animation-delay:-0.33s;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform:translate(-50%,-50%) translateY(-2px);
+    }
+    50% {
+        transform:translate(-50%,-50%) translateY(2px);
+    }
+}
